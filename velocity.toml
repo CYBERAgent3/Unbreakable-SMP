@@ -5,6 +5,7 @@ motd = "Unbreakable SMP"
 show-max-players = 500
 
 online-mode = false
+forwarding-secret-file = "forwarding.secret"
 force-key-authentication = false
 
 # IMPORTANT: disable forwarding so no secret file is required
