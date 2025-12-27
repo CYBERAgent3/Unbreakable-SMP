@@ -10,7 +10,7 @@ player-info-forwarding-mode = "none"
 forwarding-secret-file = "forwarding.secret"
 
 [servers]
-lobby = "YOUR_FALIX_IP:25565"
+lobby = "unbreakablesmp.falixsrv.me:51553"
 
 try = [
   "lobby"
