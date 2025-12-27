@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: eaglercraft-proxy
+    env: java
+    plan: free
+    buildCommand: ""
+    startCommand: java -Xms512M -Xmx512M -jar proxy.jar
+    envVars:
+      - key: JAVA_VERSION
+        value: 17
+        
