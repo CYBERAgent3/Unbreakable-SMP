@@ -1,0 +1,16 @@
+config-version = "2.7"
+
+bind = "0.0.0.0:8080"
+motd = "Unbreakable SMP"
+show-max-players = 500
+
+online-mode = false
+force-key-authentication = false
+player-info-forwarding-mode = "none"
+
+[servers]
+lobby = "unbreakablesmp.falixsrv.me:51553"
+
+try = [
+  "lobby"
+]
