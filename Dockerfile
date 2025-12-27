@@ -9,7 +9,7 @@ RUN apt-get update \
 # Download Velocity automatically (prevents corrupt jars)
 RUN curl -fL --retry 5 --retry-delay 2 \
   -o /app/velocity.jar \
-  https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/558/downloads/velocity-3.4.0-SNAPSHOT-558.jar \
+  "https://api.papermc.io/v2/projects/velocity/versions/3.3.0/builds/389/downloads/velocity-3.3.0-389.jar" \
   && unzip -t /app/velocity.jar > /dev/null
 
 COPY velocity.toml /app/velocity.toml
