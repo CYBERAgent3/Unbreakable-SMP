@@ -7,6 +7,7 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/*
 
 # Download EXACT Velocity build the plugin says it supports
+ARG CACHEBUST=1
 RUN curl -fL --retry 5 --retry-delay 2 \
   -o /app/velocity.jar \
   "https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/464/downloads/velocity-3.4.0-SNAPSHOT-464.jar" \
