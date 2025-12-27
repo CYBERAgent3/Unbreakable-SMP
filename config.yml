@@ -1,0 +1,10 @@
+servers:
+  lobby:
+    address: unbreakablesmp.falixsrv.me:51553
+    restricted: false
+
+listeners:
+  - host: 0.0.0.0:8080
+    max_players: 500
+    online_mode: false
+    default_server: lobby
