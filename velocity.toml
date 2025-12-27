@@ -7,10 +7,14 @@ show-max-players = 500
 online-mode = false
 force-key-authentication = false
 player-info-forwarding-mode = "none"
+forwarding-secret-file = "forwarding.secret"
 
 [servers]
-lobby = "unbreakablesmp.falixsrv.me:51553"
+lobby = "YOUR_FALIX_IP:25565"
 
 try = [
   "lobby"
 ]
+
+# IMPORTANT: Remove forced hosts completely to avoid startup errors
+[forced-hosts]
